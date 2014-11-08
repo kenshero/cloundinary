@@ -31,7 +31,7 @@ app.configure(function(){
 
 app.configure('development', function(){
   app.use(express.errorHandler());
-  cloudinary.config({ cloud_name: 'YOURS', api_key: 'YOURS', api_secret: 'YOURS' });
+  cloudinary.config({ cloud_name: 'reviewbook', api_key: '679694477186338', api_secret: '4MQmZM0nlkRuaaO-WbpnR4zPlgs' });
 });
 
 app.locals.api_key = cloudinary.config().api_key;
